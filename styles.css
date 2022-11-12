@@ -1,0 +1,150 @@
+/* This is a CSS comment. Put your CSS styling below this line */
+/*blade-runner= https://drive.google.com/uc?id=1NNZCuS__SLv_ap_bvO-9ETp9R63iDqz6  */
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Dancing+Script:wght@700&family=Lato&family=Macondo&family=Michroma&family=Shadows+Into+Light&family=Xanh+Mono&display=swap');
+
+*{
+  margin: 0px;
+}
+
+html{
+   position: relative;
+    min-height: 100%;
+}
+
+.conatiner{
+  padding-right: 1rem;
+  padding-left: 1 rem;
+}
+
+.container-centered{
+  margin: auto;
+  max-width: 60%;
+  text-align: center;
+}
+
+/* navbar */
+
+.navigation{
+    color: #f8fafc;
+    padding: 2rem;
+    border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem ;
+  background-color: #881337 ;
+  max-height: 20vh;
+/*   font-family: 'Shadows Into Light', cursive; */
+font-family: 'Xanh Mono', monospace;
+}
+
+.navigation .nav-header{
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+/* links */
+.link{
+   text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+ .link-text{
+   color: white;
+ }
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.content-link{
+  color:#881337;
+  text-decoration: none;
+}
+/** list **/
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-inline-item {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.music-list-item{
+  padding: 1rem;
+}
+/* header */
+
+.hero-text{
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Shadows Into Light', cursive;
+  
+}
+
+.images{
+   max-width: 500px;
+    margin: auto;
+  border-radius: 20px;
+  margin: 2rem;
+}
+
+.text-section{
+  font-family: 'Bitter', serif;
+  text-align: left;
+  font-size: larger;
+  padding: 1rem;
+}
+
+.content-para{
+  padding-top: 1rem;
+}
+
+h2{
+  padding-bottom: 1rem;
+}
+
+
+/* h3{
+  text-align: center;
+} */
+
+/* footer */
+.footer{
+  background-color: black;
+    text-align: center;
+    color:  white;
+    padding: 2rem;
+  margin-top: 2rem;
+  
+}
+
+.about-footer{
+  position: absolute;
+    left: 0;
+    bottom: 0;
+  height: 100px;
+    width: 100vw;
+  
+}
+
+.footer .footer-header{
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 1rem ;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.footer .link{
+    
+    font-weight: bold;
+    font-size: large;
+  text-decoration: underline;
